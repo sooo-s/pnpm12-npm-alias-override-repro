@@ -1,0 +1,15 @@
+{
+  "name": "pnpm12-npm-alias-override-repro",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "25.9.7",
+    "vite-node": "6.0.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.7.0",
+      "onFail": "download"
+    }
+  }
+}

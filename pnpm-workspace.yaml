@@ -1,0 +1,4 @@
+registries:
+  default: https://registry.npmjs.org/
+overrides:
+  vite@*: npm:@voidzero-dev/vite-plus-core@0.3.3
